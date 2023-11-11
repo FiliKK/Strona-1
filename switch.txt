@@ -1,0 +1,21 @@
+switch (wyrażenie_sterujące)
+{
+    case wartość_sekcji_1:
+        instrukcje_1;
+        break;
+    
+    case wartość_sekcji_2:
+        instrukcje_2;
+        break;
+
+    ...
+ 
+    default:
+        instrukcja_domyslna;
+}
+
+
+•wyrażenie_sterujące - (wymagane pole),
+•wartość_sekcji_1, wartość_sekcji_2 - wartość zwracana przez wyrażenie sterujące,
+•instrukcje_1, instrukcje_2 - instrukcje przypisane do sekcji - (opcjonalne),
+•default - sekcja jest wykonywana w przypadku braku pasujących sekcji - (opcjonalne).

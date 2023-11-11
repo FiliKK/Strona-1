@@ -1,0 +1,10 @@
+listy w html sluza do uporzadkowania tekstu. mamy 2 rodzaje list:
+1. numerowana - znacznik <ol>
+2. nienumerowana - znacznik <ul>
+W przypadku listy numerowanej możemy zdefiniować typ np.
+<ol type="I"> - numeracja rzymska
+<ol type="A"> - numeracja literowa 
+W przypadku listy nienumerowanej możemy zdefiniować typ
+<ol type="circle"> - pusty okrąg
+<ol type="square"> - kwadrat
+<ol type="none"> - brak znacznika

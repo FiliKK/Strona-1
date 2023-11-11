@@ -1,0 +1,12 @@
+Do sprawdzania warunków wykorzystywana jest instrukcja warunkowa if(warunek) 
+Na podstawie liczby zadeklarowanej w programie sprawdź czy jest ona większa od zera 
+
+Int liczba = 6;
+If(liczba>0)
+cout<<„liczba jest większa od zera”;
+
+Instrukcja bądź instrukcje po poleceniu if 
+Wykonywane są wtedy kiedy warunek jest spełniony (true) lub wartość jest rożna od 0
+Instrukcja if else
+Instrukcje po słowie kluczowym else wykonywanego są wtedy kiedy warunek nie jest spełniony 
+if(warunek){

@@ -1,0 +1,23 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+(
+    float cm, kg, m2;
+    int bmi;
+    cout<<"Podaj swoj wzrost ";
+    cin>>cm;
+    cout<<"Podaj swoja wage ";
+    cin>>kg;
+    m2=cm*cm;
+    bmi=kg/m2;
+    cout<<"\nTwoje bmi to " <<bmi;
+    if(bmi<18.5)
+    cout<<"\nMasz niedowage ";
+    if(bmi>25)
+    cout<<"\nJestes za gruby ";
+ 
+    
+    return 0;
+}
